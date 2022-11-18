@@ -1,0 +1,32 @@
+{
+  "name": "translation-app-vuejs",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "serve": "vue-cli-service serve",
+    "build": "vue-cli-service build",
+    "lint": "vue-cli-service lint",
+    "cypress:open": "cypress open"
+  },
+  "dependencies": {
+    "axios": "^0.22.0",
+    "bootstrap": "^5.1.1",
+    "bootstrap-vue": "^2.21.2",
+    "clipboard": "^2.0.8",
+    "core-js": "^3.18.1",
+    "vue": "^2.6.14"
+  },
+  "devDependencies": {
+    "@vue/cli-plugin-babel": "^4.5.13",
+    "@vue/cli-plugin-eslint": "^4.5.13",
+    "@vue/cli-service": "^4.5.13",
+    "@vue/eslint-config-prettier": "^6.0.0",
+    "babel-eslint": "^10.1.0",
+    "cypress": "^8.5.0",
+    "eslint": "^7.32.0",
+    "eslint-plugin-vue": "^7.18.0",
+    "node-sass": "^6.0.1",
+    "sass-loader": "^12.1.0",
+    "vue-template-compiler": "^2.6.14"
+  }
+}
